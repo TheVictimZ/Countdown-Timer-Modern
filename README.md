@@ -1,4 +1,4 @@
-# Antigravity Timer & Team Manager
+# Chel Project - Countdown Timer Modern
 
 A Python desktop application built with **PySide6**.
 
@@ -26,7 +26,7 @@ This application uses `PyInstaller` to create a standalone `.exe` file.
 2. **Build Command**:
    Run the following command in your terminal from the project root:
    ```bash
-   pyinstaller --noconfirm --onefile --windowed --name "ModernCountdownTime" --clean main.py
+   pyinstaller --noconfirm --onefile --windowed --name "Chel Project - Countdown Timer Modern" --clean main.py
    ```
 
 1.  **Install PyInstaller** (if not already installed):
@@ -37,25 +37,25 @@ This application uses `PyInstaller` to create a standalone `.exe` file.
 2.  **Build Command**:
     Run the following command in your terminal from the project root:
     ```bash
-    pyinstaller --noconfirm --onefile --windowed --name "ModernCountdownTime" --clean main.py
+    pyinstaller --noconfirm --onefile --windowed --name "Chel Project - Countdown Timer Modern" --clean main.py
     ```
 
     **Explanation of flags**:
     -   `--noconfirm`: Don't ask for confirmation to overwrite.
     -   `--onefile`: Bundle everything into a single `.exe` file.
     -   `--windowed`: Hide the console window when running (GUI mode).
-    -   `--name "ModernCountdownTime"`: Name the output file `ModernCountdownTime.exe`.
+    -   `--name "Chel Project - Countdown Timer Modern"`: Name the output file `Chel Project - Countdown Timer Modern.exe`.
     -   `--clean`: Clean PyInstaller cache before building.
     -   `--add-data "assets;assets"`: Bundles the assets (optional, as the app auto-generates them if missing).
 
 3.  **Locate the Executable**:
-    The `ModernCountdownTime.exe` file will be generated in the `dist/` folder.
+    The `Chel Project - Countdown Timer Modern.exe` file will be generated in the `dist/` folder.
 
 ## Distribution & Installation
 
 Once built, the application is **portable**.
 
-1.  **Move the File**: You can take `dist/ModernCountdownTime.exe` and move it to your Desktop, Program Files, or a USB drive.
+1.  **Move the File**: You can take `dist/Chel Project - Countdown Timer Modern.exe` and move it to your Desktop, Program Files, or a USB drive.
 2.  **Running**: Double-click `.exe` to run.
 3.  **Custom Sound**:
     -   When you run the app, it will automatically create an `assets` folder next to it containing `alarm.wav`.
