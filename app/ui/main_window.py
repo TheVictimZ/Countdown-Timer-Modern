@@ -12,7 +12,7 @@ from app.styles.modern import ELEGANT_THEME
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Modern Countdown Time by Chel")
+        self.setWindowTitle("Chel Project - Countdown Timer Modern")
         self.resize(1100, 750)
         
         # Initialize Core Logic
